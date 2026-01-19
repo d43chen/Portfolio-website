@@ -14,8 +14,8 @@ export default function Hero() {
           Hi, I'm Daniel Chen
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          A versatile designer and strategist driven by curiosity and impact.
-          UX designer, product developer, and creative problem-solver.
+          A versatile designer and strategist driven by curiosity and impact. UX
+          designer, product developer, and creative problem-solver.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

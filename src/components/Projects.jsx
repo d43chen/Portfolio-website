@@ -4,33 +4,37 @@ export default function Projects() {
       id: 1,
       title: "Replica - uXperience Design Jam",
       description:
-        "An AI-powered financial literacy app for recent high school graduates featuring budgeting tools, savings recommendations, and financial impact simulations.",
+        "AI-powered financial literacy app for high school graduates. Features budgeting tools, savings recommendations, financial impact simulations, community support, and progress tracking.",
       tech: ["UX Design", "Figma", "Design Strategy"],
       image: "💰",
+      details: "Role: UX Designer & Design Strategist | Team Project",
     },
     {
       id: 2,
       title: "GBDA Society",
       description:
-        "A global HR outsourcing platform connecting companies with specialized HR services, achieving 22% cost savings and available across 180+ countries.",
+        "Global HR outsourcing platform achieving 22% cost savings and 78% client satisfaction. Available across 180+ countries with analytics, UX optimization, and AI chat integration.",
       tech: ["Product Strategy", "Analytics", "Platform Design"],
       image: "🌍",
+      details: "Global platform connecting HR firms with companies",
     },
     {
       id: 3,
       title: "UW Portal Room System",
       description:
-        "A comprehensive study space booking system with room filtering by noise level, rating system, maps, and booking history for University of Waterloo students.",
+        "Comprehensive study space booking system. Features room filtering by noise level, rating system, maps integration, and booking history. Addresses student pain points in finding study spaces.",
       tech: ["UX Research", "Design Systems", "User Testing"],
       image: "📚",
+      details: "Designed using Figma after conducting user interviews",
     },
     {
       id: 4,
       title: "Amsterdam Brewery - Redesign & Branding",
       description:
-        "Complete product redesign and brand identity overhaul for Amsterdam Brewery with new logo, typography system, and color palette targeting 20-40 year-olds.",
-      tech: ["Branding", "Illustrator", "Typography"],
+        "Complete logo redesign and brand identity overhaul. New packaging design inspired by CN Tower and Toronto's waterfront. Target audience: 20-40 year-olds. Color palette: Yellow (#FED700) & Red (#D92827).",
+      tech: ["Branding", "Illustrator", "Photoshop"],
       image: "🍺",
+      details: "Presented to business judges and approved for implementation",
     },
   ];
 
@@ -55,6 +59,7 @@ export default function Projects() {
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
+                <p className="text-gray-300 mb-3 text-sm">{project.details}</p>
                 <p className="text-gray-300 mb-4">{project.description}</p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech) => (

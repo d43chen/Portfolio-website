@@ -17,35 +17,29 @@ export default function Resume() {
             </h3>
             <div className="space-y-8">
               <div className="border-l-2 border-blue-600 pl-6">
-                <h4 className="text-xl font-semibold mb-1">Senior Developer</h4>
+                <h4 className="text-xl font-semibold mb-1">AI Developer</h4>
                 <p className="text-gray-400 mb-2">
-                  Tech Company Inc. • 2021 - Present
+                  Toronto Catholic District School Board • Sep 2025 - Dec 2025
                 </p>
-                <p className="text-gray-300">
-                  Led development of key features and mentored junior
-                  developers.
-                </p>
-              </div>
-
-              <div className="border-l-2 border-blue-600 pl-6">
-                <h4 className="text-xl font-semibold mb-1">
-                  Full Stack Developer
-                </h4>
-                <p className="text-gray-400 mb-2">Startup Co. • 2019 - 2021</p>
-                <p className="text-gray-300">
-                  Built and maintained web applications using React and Node.js.
-                </p>
-              </div>
-
-              <div className="border-l-2 border-blue-600 pl-6">
-                <h4 className="text-xl font-semibold mb-1">Junior Developer</h4>
-                <p className="text-gray-400 mb-2">
-                  Web Solutions Ltd. • 2018 - 2019
-                </p>
-                <p className="text-gray-300">
-                  Developed responsive websites and fixed bugs under
-                  supervision.
-                </p>
+                <ul className="text-gray-300 list-disc list-inside text-sm">
+                  <li>
+                    Developed and deployed a Copilot Studio AI guidance agent
+                    within TCDSB SharePoint allowing self-service resolution for
+                    70% of common issues
+                  </li>
+                  <li>
+                    Optimized markdown instructions for declarative agents
+                    increasing test answer utility to 90% accuracy
+                  </li>
+                  <li>
+                    Integrated ticket management abilities into the AI guidance
+                    agent by incorporating Ivanti REST API
+                  </li>
+                  <li>
+                    Tested and optimized agent prompts delivering solutions and
+                    securing executive approval
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -56,28 +50,30 @@ export default function Resume() {
             <div className="space-y-8">
               <div className="border-l-2 border-blue-600 pl-6">
                 <h4 className="text-xl font-semibold mb-1">
-                  Bachelor of Science in Computer Science
+                  Honours Global Business and Digital Arts (Computing Minor)
                 </h4>
-                <p className="text-gray-400 mb-2">University Name • 2018</p>
-                <p className="text-gray-300">
-                  Graduated with honors. Focus on web development and software
-                  engineering.
+                <p className="text-gray-400 mb-2">
+                  University of Waterloo • Expected Jun 2028
+                </p>
+                <p className="text-gray-300 text-sm mb-3">
+                  Relevant Coursework: User Experience Design, Web Development,
+                  Digital Media, Data Structures, Management Information Systems
                 </p>
               </div>
 
               <div className="border-l-2 border-blue-600 pl-6">
-                <h4 className="text-xl font-semibold mb-1">
-                  Professional Certifications
-                </h4>
-                <p className="text-gray-400 mb-2">
-                  Various Online Platforms • 2019 - 2024
+                <h4 className="text-xl font-semibold mb-1">Technical Skills</h4>
+                <p className="text-gray-300 text-sm mb-2">
+                  <strong>Tools:</strong> Figma, Adobe Creative Suite, Microsoft
+                  Copilot Studio, Canva, Postman
                 </p>
-                <ul className="text-gray-300 list-disc list-inside">
-                  <li>React Advanced Patterns</li>
-                  <li>Node.js Mastery</li>
-                  <li>Web Design Fundamentals</li>
-                </ul>
+                <p className="text-gray-300 text-sm">
+                  <strong>Languages:</strong> JavaScript, Python, CSS, HTML,
+                  React, JSON, SQL
+                </p>
               </div>
+            </div>
+          </div>
             </div>
           </div>
         </div>
@@ -85,7 +81,7 @@ export default function Resume() {
         {/* Download Resume Button */}
         <div className="mt-16 text-center">
           <a
-            href="#"
+            href="/DanielChen_Resume.docx"
             download
             className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >

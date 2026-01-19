@@ -26,15 +26,16 @@ export default function About() {
           <div>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
               Hi, I'm Daniel Chen, a Global Business and Digital Arts student at
-              the University of Waterloo. With experience across UX design, marketing,
-              business strategy, and product development, I create user-centered solutions
-              that bridge the gap between design and business goals.
+              the University of Waterloo. With experience across UX design,
+              marketing, business strategy, and product development, I create
+              user-centered solutions that bridge the gap between design and
+              business goals.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              My approach combines research, creative problem-solving, and a deep
-              understanding of user needs to deliver meaningful experiences and products.
-              During my free time, I love watching programming and design tutorial videos
-              to enhance my projects.
+              My approach combines research, creative problem-solving, and a
+              deep understanding of user needs to deliver meaningful experiences
+              and products. During my free time, I love watching programming and
+              design tutorial videos to enhance my projects.
             </p>
 
             <h3 className="text-2xl font-bold mb-6">Skills</h3>
