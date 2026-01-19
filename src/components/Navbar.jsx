@@ -31,7 +31,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <button
             onClick={handleLogoClick}
-            className="text-2xl font-bold text-blue-500 hover:text-blue-400 transition-colors cursor-pointer focus:outline-none"
+            className="bg-transparent border-none p-0 text-2xl font-bold text-blue-500 hover:text-blue-400 transition-colors cursor-pointer focus:outline-none"
           >
             Daniel
           </button>
