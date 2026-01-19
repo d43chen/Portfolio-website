@@ -53,7 +53,7 @@ export default function Contact() {
                 <span className="text-2xl">📧</span>
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-gray-300">your.email@example.com</p>
+                  <p className="text-gray-300">daniel.chen@example.com</p>
                 </div>
               </div>
 
@@ -61,7 +61,7 @@ export default function Contact() {
                 <span className="text-2xl">📍</span>
                 <div>
                   <h4 className="font-semibold mb-1">Location</h4>
-                  <p className="text-gray-300">City, Country</p>
+                  <p className="text-gray-300">Toronto, Canada</p>
                 </div>
               </div>
 

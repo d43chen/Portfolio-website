@@ -1,8 +1,9 @@
 export default function About() {
   const skills = [
-    ["JavaScript", "React", "Node.js"],
-    ["Tailwind CSS", "HTML/CSS", "MongoDB"],
-    ["Git", "REST APIs", "Responsive Design"],
+    ["Figma", "Adobe Illustrator", "Adobe Photoshop"],
+    ["HTML", "CSS", "JavaScript"],
+    ["Python", "Java", "Racket"],
+    ["Adobe Express", "Microsoft Office", "Design Systems"],
   ];
 
   return (
@@ -24,14 +25,16 @@ export default function About() {
 
           <div>
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate developer with a love for creating beautiful,
-              functional web applications. With experience in both frontend and
-              backend development, I help bring ideas to life through clean,
-              efficient code.
+              Hi, I'm Daniel Chen, a Global Business and Digital Arts student at
+              the University of Waterloo. With experience across UX design, marketing,
+              business strategy, and product development, I create user-centered solutions
+              that bridge the gap between design and business goals.
             </p>
             <p className="text-lg text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies,
-              contributing to open source, or working on personal projects.
+              My approach combines research, creative problem-solving, and a deep
+              understanding of user needs to deliver meaningful experiences and products.
+              During my free time, I love watching programming and design tutorial videos
+              to enhance my projects.
             </p>
 
             <h3 className="text-2xl font-bold mb-6">Skills</h3>

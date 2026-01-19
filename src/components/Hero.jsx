@@ -11,11 +11,11 @@ export default function Hero() {
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
-          Hi, I'm Your Name
+          Hi, I'm Daniel Chen
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          A passionate full-stack developer crafting beautiful and functional
-          digital experiences.
+          A versatile designer and strategist driven by curiosity and impact.
+          UX designer, product developer, and creative problem-solver.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button

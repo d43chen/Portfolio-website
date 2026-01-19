@@ -2,31 +2,35 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Project One",
-      description: "A modern web application built with React and Tailwind CSS",
-      tech: ["React", "Tailwind CSS", "JavaScript"],
-      image: "🎨",
+      title: "Replica - uXperience Design Jam",
+      description:
+        "An AI-powered financial literacy app for recent high school graduates featuring budgeting tools, savings recommendations, and financial impact simulations.",
+      tech: ["UX Design", "Figma", "Design Strategy"],
+      image: "💰",
     },
     {
       id: 2,
-      title: "Project Two",
-      description: "Full-stack application with database integration",
-      tech: ["Node.js", "MongoDB", "React"],
-      image: "💻",
+      title: "GBDA Society",
+      description:
+        "A global HR outsourcing platform connecting companies with specialized HR services, achieving 22% cost savings and available across 180+ countries.",
+      tech: ["Product Strategy", "Analytics", "Platform Design"],
+      image: "🌍",
     },
     {
       id: 3,
-      title: "Project Three",
-      description: "Mobile-responsive design with advanced animations",
-      tech: ["React", "CSS3", "JavaScript"],
-      image: "🚀",
+      title: "UW Portal Room System",
+      description:
+        "A comprehensive study space booking system with room filtering by noise level, rating system, maps, and booking history for University of Waterloo students.",
+      tech: ["UX Research", "Design Systems", "User Testing"],
+      image: "📚",
     },
     {
       id: 4,
-      title: "Project Four",
-      description: "E-commerce platform with payment integration",
-      tech: ["React", "Stripe", "Node.js"],
-      image: "🛍️",
+      title: "Amsterdam Brewery - Redesign & Branding",
+      description:
+        "Complete product redesign and brand identity overhaul for Amsterdam Brewery with new logo, typography system, and color palette targeting 20-40 year-olds.",
+      tech: ["Branding", "Illustrator", "Typography"],
+      image: "🍺",
     },
   ];
 
