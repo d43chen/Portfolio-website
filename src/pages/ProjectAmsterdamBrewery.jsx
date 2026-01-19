@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 export default function ProjectAmsterdamBrewery() {
   return (
-    <div className="bg-gray-900 text-white min-h-screen">
+    <div className="bg-gray-900 text-white min-h-screen pt-16">
       <div className="pt-8 px-4 sm:px-6 lg:px-8 max-w-6xl mx-auto">
         <Link
           to="/"
           className="inline-block text-blue-400 hover:text-blue-300 mb-8"
         >
-          ← Back to Projects
+          ← Back
         </Link>
       </div>
 
