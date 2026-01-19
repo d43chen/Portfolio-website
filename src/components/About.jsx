@@ -17,13 +17,7 @@ export default function About() {
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="text-center md:text-left">
-            <div className="w-48 h-48 mx-auto md:mx-0 mb-8 rounded-lg bg-gray-700 flex items-center justify-center text-7xl">
-              👨‍💻
-            </div>
-          </div>
-
-          <div>
+          <div className="text-center md:text-left order-2 md:order-1">
             <p className="text-lg text-gray-300 mb-6 leading-relaxed">
               Hi, I'm Daniel Chen, a Global Business and Digital Arts student at
               the University of Waterloo. With experience across UX design,
@@ -52,6 +46,16 @@ export default function About() {
                   ))}
                 </div>
               ))}
+            </div>
+          </div>
+
+          <div className="order-1 md:order-2">
+            <div className="w-full h-96 md:h-[500px] mx-auto rounded-lg bg-gray-700 overflow-hidden shadow-lg">
+              <img
+                src="/about-image.jpg"
+                alt="Daniel Chen"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>

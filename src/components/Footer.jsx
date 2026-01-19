@@ -54,22 +54,20 @@ export default function Footer() {
             <h3 className="text-lg font-bold text-blue-400 mb-4">Connect</h3>
             <div className="flex space-x-4">
               <a
-                href="#"
+                href="https://github.com/d43chen"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
                 GitHub
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/daniel-chen-3164042b7/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
                 LinkedIn
-              </a>
-              <a
-                href="#"
-                className="text-gray-400 hover:text-blue-400 transition-colors"
-              >
-                Twitter
               </a>
             </div>
           </div>

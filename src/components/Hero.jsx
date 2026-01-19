@@ -5,11 +5,6 @@ export default function Hero() {
       className="min-h-screen flex items-center justify-center bg-gradient-to-b from-gray-900 to-gray-800 text-white pt-16"
     >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="mb-8">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gray-700 flex items-center justify-center">
-            <span className="text-6xl">👤</span>
-          </div>
-        </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-400 to-blue-600 bg-clip-text text-transparent">
           Hi, I'm Daniel Chen
         </h1>

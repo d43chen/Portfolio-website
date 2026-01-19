@@ -1,23 +1,40 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
 
-  const links = ["home", "projects", "about", "contact", "resume"];
+  const links = ["about", "projects", "resume", "contact"];
 
   const scrollToSection = (id) => {
-    const section = document.getElementById(id);
-    if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
-      setIsOpen(false);
-    }
+    navigate("/");
+    setTimeout(() => {
+      const section = document.getElementById(id);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }, 0);
+    setIsOpen(false);
+  };
+
+  const handleLogoClick = () => {
+    navigate("/");
+    setTimeout(() => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 0);
   };
 
   return (
     <nav className="fixed w-full top-0 z-50 bg-gray-900 text-white shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="text-2xl font-bold text-blue-500">Portfolio</div>
+          <button
+            onClick={handleLogoClick}
+            className="text-2xl font-bold text-blue-500 hover:text-blue-400 transition-colors cursor-pointer focus:outline-none"
+          >
+            Daniel
+          </button>
 
           {/* Mobile menu button */}
           <button

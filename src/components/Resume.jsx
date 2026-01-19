@@ -21,7 +21,7 @@ export default function Resume() {
                 <p className="text-gray-400 mb-2">
                   Toronto Catholic District School Board • Sep 2025 - Dec 2025
                 </p>
-                <ul className="text-gray-300 list-disc list-inside text-sm">
+                <ul className="text-gray-300 list-disc list-inside text-sm space-y-1">
                   <li>
                     Developed and deployed a Copilot Studio AI guidance agent
                     within TCDSB SharePoint allowing self-service resolution for
@@ -74,18 +74,29 @@ export default function Resume() {
               </div>
             </div>
           </div>
-            </div>
-          </div>
         </div>
 
         {/* Download Resume Button */}
         <div className="mt-16 text-center">
           <a
-            href="/DanielChen_Resume.docx"
+            href="/DanielChen_Resume.pdf"
             download
-            className="inline-block bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+            className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
-            ⬇️ Download Resume
+            <svg
+              className="w-5 h-5"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
+              />
+            </svg>
+            Download Resume
           </a>
         </div>
       </div>
