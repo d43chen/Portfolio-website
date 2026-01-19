@@ -1,10 +1,10 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: '',
+    name: "",
+    email: "",
+    message: "",
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -19,16 +19,19 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you would typically send the form data to a server
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
     setSubmitted(true);
     setTimeout(() => {
       setSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
+      setFormData({ name: "", email: "", message: "" });
     }, 3000);
   };
 
   return (
-    <section id="contact" className="min-h-screen bg-gray-800 text-white py-20 px-4 sm:px-6 lg:px-8">
+    <section
+      id="contact"
+      className="min-h-screen bg-gray-800 text-white py-20 px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center">
           Get In <span className="text-blue-400">Touch</span>
@@ -40,7 +43,8 @@ export default function Contact() {
             <div>
               <h3 className="text-2xl font-bold mb-4">Let's Connect</h3>
               <p className="text-gray-300 mb-6">
-                Have a project in mind? Let's work together to create something amazing.
+                Have a project in mind? Let's work together to create something
+                amazing.
               </p>
             </div>
 
@@ -66,13 +70,22 @@ export default function Contact() {
                 <div>
                   <h4 className="font-semibold mb-1">Social</h4>
                   <div className="flex gap-4">
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    <a
+                      href="#"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
+                    >
                       LinkedIn
                     </a>
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    <a
+                      href="#"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
+                    >
                       GitHub
                     </a>
-                    <a href="#" className="text-blue-400 hover:text-blue-300 transition-colors">
+                    <a
+                      href="#"
+                      className="text-blue-400 hover:text-blue-300 transition-colors"
+                    >
                       Twitter
                     </a>
                   </div>
@@ -84,7 +97,10 @@ export default function Contact() {
           {/* Contact Form */}
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
-              <label htmlFor="name" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="name"
+                className="block text-sm font-semibold mb-2"
+              >
                 Name
               </label>
               <input
@@ -100,7 +116,10 @@ export default function Contact() {
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-semibold mb-2"
+              >
                 Email
               </label>
               <input
@@ -116,7 +135,10 @@ export default function Contact() {
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-semibold mb-2">
+              <label
+                htmlFor="message"
+                className="block text-sm font-semibold mb-2"
+              >
                 Message
               </label>
               <textarea

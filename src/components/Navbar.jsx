@@ -1,14 +1,14 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  const links = ['home', 'projects', 'about', 'contact', 'resume'];
+  const links = ["home", "projects", "about", "contact", "resume"];
 
   const scrollToSection = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: 'smooth' });
+      section.scrollIntoView({ behavior: "smooth" });
       setIsOpen(false);
     }
   };
@@ -24,9 +24,15 @@ export default function Navbar() {
             onClick={() => setIsOpen(!isOpen)}
             className="md:hidden flex flex-col space-y-1.5 cursor-pointer"
           >
-            <div className={`h-0.5 w-6 bg-white transition-all ${isOpen ? 'rotate-45 translate-y-2' : ''}`}></div>
-            <div className={`h-0.5 w-6 bg-white transition-all ${isOpen ? 'opacity-0' : ''}`}></div>
-            <div className={`h-0.5 w-6 bg-white transition-all ${isOpen ? '-rotate-45 -translate-y-2' : ''}`}></div>
+            <div
+              className={`h-0.5 w-6 bg-white transition-all ${isOpen ? "rotate-45 translate-y-2" : ""}`}
+            ></div>
+            <div
+              className={`h-0.5 w-6 bg-white transition-all ${isOpen ? "opacity-0" : ""}`}
+            ></div>
+            <div
+              className={`h-0.5 w-6 bg-white transition-all ${isOpen ? "-rotate-45 -translate-y-2" : ""}`}
+            ></div>
           </button>
 
           {/* Desktop menu */}

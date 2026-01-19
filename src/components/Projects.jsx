@@ -2,36 +2,39 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: 'Project One',
-      description: 'A modern web application built with React and Tailwind CSS',
-      tech: ['React', 'Tailwind CSS', 'JavaScript'],
-      image: '🎨',
+      title: "Project One",
+      description: "A modern web application built with React and Tailwind CSS",
+      tech: ["React", "Tailwind CSS", "JavaScript"],
+      image: "🎨",
     },
     {
       id: 2,
-      title: 'Project Two',
-      description: 'Full-stack application with database integration',
-      tech: ['Node.js', 'MongoDB', 'React'],
-      image: '💻',
+      title: "Project Two",
+      description: "Full-stack application with database integration",
+      tech: ["Node.js", "MongoDB", "React"],
+      image: "💻",
     },
     {
       id: 3,
-      title: 'Project Three',
-      description: 'Mobile-responsive design with advanced animations',
-      tech: ['React', 'CSS3', 'JavaScript'],
-      image: '🚀',
+      title: "Project Three",
+      description: "Mobile-responsive design with advanced animations",
+      tech: ["React", "CSS3", "JavaScript"],
+      image: "🚀",
     },
     {
       id: 4,
-      title: 'Project Four',
-      description: 'E-commerce platform with payment integration',
-      tech: ['React', 'Stripe', 'Node.js'],
-      image: '🛍️',
+      title: "Project Four",
+      description: "E-commerce platform with payment integration",
+      tech: ["React", "Stripe", "Node.js"],
+      image: "🛍️",
     },
   ];
 
   return (
-    <section id="projects" className="min-h-screen bg-gray-800 text-white py-20 px-4 sm:px-6 lg:px-8">
+    <section
+      id="projects"
+      className="min-h-screen bg-gray-800 text-white py-20 px-4 sm:px-6 lg:px-8"
+    >
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold mb-16 text-center">
           Featured <span className="text-blue-400">Projects</span>

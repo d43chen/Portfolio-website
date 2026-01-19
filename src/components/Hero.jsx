@@ -14,13 +14,14 @@ export default function Hero() {
           Hi, I'm Your Name
         </h1>
         <p className="text-lg md:text-2xl text-gray-300 mb-8 max-w-2xl mx-auto">
-          A passionate full-stack developer crafting beautiful and functional digital experiences.
+          A passionate full-stack developer crafting beautiful and functional
+          digital experiences.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <button
             onClick={() => {
-              const section = document.getElementById('projects');
-              section?.scrollIntoView({ behavior: 'smooth' });
+              const section = document.getElementById("projects");
+              section?.scrollIntoView({ behavior: "smooth" });
             }}
             className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
@@ -28,8 +29,8 @@ export default function Hero() {
           </button>
           <button
             onClick={() => {
-              const section = document.getElementById('contact');
-              section?.scrollIntoView({ behavior: 'smooth' });
+              const section = document.getElementById("contact");
+              section?.scrollIntoView({ behavior: "smooth" });
             }}
             className="border-2 border-blue-600 text-blue-400 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
