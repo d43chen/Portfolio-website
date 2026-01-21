@@ -79,7 +79,7 @@ export default function Resume() {
         {/* Download Resume Button */}
         <div className="mt-16 text-center">
           <a
-            href="/DanielChen_Resume.pdf"
+            href="/Resume 2026.pdf"
             download
             className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
           >
