@@ -53,7 +53,7 @@ export default function Resume() {
                   Honours Global Business and Digital Arts (Computing Minor)
                 </h4>
                 <p className="text-gray-400 mb-2">
-                  University of Waterloo • Expected Jun 2028
+                  University of Waterloo • Expected Apr 2028
                 </p>
                 <p className="text-gray-300 text-sm mb-3">
                   Relevant Coursework: User Experience Design, Web Development,
@@ -65,7 +65,8 @@ export default function Resume() {
                 <h4 className="text-xl font-semibold mb-1">Technical Skills</h4>
                 <p className="text-gray-300 text-sm mb-2">
                   <strong>Tools:</strong> Figma, Adobe Creative Suite, Microsoft
-                  Copilot Studio, Canva, Postman
+                  Copilot Studio, Canva, Postman, Excel, PowerPoint, Word,
+                  SharePoint
                 </p>
                 <p className="text-gray-300 text-sm">
                   <strong>Languages:</strong> JavaScript, Python, CSS, HTML,
