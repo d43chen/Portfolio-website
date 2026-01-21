@@ -39,7 +39,7 @@ export default function Navbar() {
           {/* Mobile menu button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden flex flex-col space-y-1.5 cursor-pointer"
+            className="md:hidden flex flex-col space-y-1.5 cursor-pointer bg-transparent border-none focus:outline-none"
           >
             <div
               className={`h-0.5 w-6 bg-white transition-all ${isOpen ? "rotate-45 translate-y-2" : ""}`}
@@ -58,7 +58,7 @@ export default function Navbar() {
               <button
                 key={link}
                 onClick={() => scrollToSection(link)}
-                className="capitalize hover:text-blue-400 transition-colors text-sm font-medium"
+                className="capitalize hover:text-blue-400 transition-colors text-sm font-medium bg-transparent border-none cursor-pointer p-0 focus:outline-none"
               >
                 {link}
               </button>
@@ -69,12 +69,12 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="md:hidden bg-gray-800 px-4 pb-4">
+        <div className="md:hidden px-4 pb-4">
           {links.map((link) => (
             <button
               key={link}
               onClick={() => scrollToSection(link)}
-              className="block w-full text-left capitalize py-2 hover:text-blue-400 transition-colors"
+              className="block w-full text-left capitalize py-2 hover:text-blue-400 transition-colors bg-transparent border-none cursor-pointer focus:outline-none"
             >
               {link}
             </button>
